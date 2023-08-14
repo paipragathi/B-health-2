@@ -63,7 +63,7 @@ router.post('/appointment', authenticateJwt, async(req,res)=>{
     await appointment.save();
     res.json({
         message:"Appointment saved successfully",
-        appointmentId: appointment.id
+        appointment
     });
 
 });
