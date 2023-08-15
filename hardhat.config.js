@@ -7,7 +7,7 @@ const API_URL = "https://polygon-mumbai.g.alchemy.com/v2/Yu5w2ygU22zFJWFRzrEgQjV
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: {
-    version: '0.8.20',
+    version: '0.8.9',
     settings:{
       optimizer:{
         enabled:true,
