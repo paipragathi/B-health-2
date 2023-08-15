@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Landing from './landing site/landing';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './patient/Dashboard';
@@ -7,6 +7,16 @@ import PatientLogin from './patient/PatientLogin';
 import PatientSignup from './patient/PatientSignup';
 
 const App = () => {
+
+  const [account ,setAccount] = useState("");
+  const [ehrContract , setEhrContract] = useState(null);
+  const [rewardContract , setRewardContract] = useState(null);
+  const [provider , setProvider] = useState(null);
+
+  useEffect(()=>{
+    
+  }, [])
+
   return (
     <div>
       
